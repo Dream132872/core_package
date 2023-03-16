@@ -1,2 +1,2 @@
 # core_package
-this is asp.net core sample for package of learning
+<h2> this is asp.net core sample for package of learning </h2>
