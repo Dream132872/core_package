@@ -1,0 +1,15 @@
+﻿@using OnlineCourse.Web.Entities.Products
+@model List<Product>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                @foreach (var product in Model)
+                {
+                    <li>@product.ProductName @product.Price</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
